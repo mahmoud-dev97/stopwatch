@@ -1,0 +1,36 @@
+body {
+  background-color: black;
+  color: white;
+  font-size: 50px;
+  text-align: center;
+  transform: translateY(200px);
+  font-family: "Orbitron", sans-serif;
+}
+.new {
+  border: none;
+  padding: 10px;
+  font-size: 15px;
+  cursor: pointer;
+  background-color: #461111;
+  box-shadow: -5px -3px 22px -5px rgb(0 0 0 / 75%) inset;
+  border-radius: 10px;
+  color: white;
+  font-weight: bold;
+}
+.watch {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(5, auto);
+  justify-items: center;
+  align-items: center;
+  background-color: #461111;
+  color: white;
+  width: 25%;
+  margin: auto;
+  border-radius: 10px;
+  box-shadow: -5px -3px 22px -5px rgb(0 0 0 / 75%) inset;
+}
+.watch span {
+  width: 80px;
+  padding: 10px;
+}
